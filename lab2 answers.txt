@@ -1,6 +1,6 @@
 1. to make sure at every step all units work well with each other
-2. unit tests only test for a uhnit of behavior while integration tests check how units of functionality work together
-3. unit tests serve as regression tests
+2. unit tests only test for a unit of behavior while integration tests check how units of functionality work together
+3. unit tests serve as regression tests, both should work as regresion tests
 4. regression tests check if new changes affect existing behavior. this is important because if you skip this, it may break more and more features in the future and fixing them all at once would be difficult
 5. code is not well factored, methods are not small enough, should only be units of functionality
 6. otherwise, it's an integration test, because the functionality of the method would be dependent on other methods. for unit testing, we aim to isolate the functionality of one method, and test the funcionality of one method only.
